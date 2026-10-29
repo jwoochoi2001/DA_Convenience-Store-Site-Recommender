@@ -1,0 +1,21 @@
+# 원천 데이터와 압축 원본은 용량(파일당 100MB 제한)과 이용약관 때문에 올리지 않는다.
+# 수집 출처와 파일 지문은 README_프로젝트.md, README.md, 파일목록.csv에 있다.
+data/
+*.zip
+*.Zip
+
+# 중간 산출물
+*.pkl
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 오래된 보고서(최신본은 eda_output/최종보고서_편의점_상권분석.*)
+eda_output/report.html
+eda_output/report_artifact_source.html
+
+# OS·편집기
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/

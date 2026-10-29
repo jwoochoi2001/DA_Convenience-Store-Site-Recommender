@@ -1,0 +1,12 @@
+﻿numpy==2.5.0
+pandas==2.3.3
+scipy==1.18.0
+scikit-learn==1.9.0
+statsmodels==0.15.0
+matplotlib==3.11.0
+shapely==2.1.2
+pyshp==3.1.6
+pyproj==3.8.0
+pyarrow==24.0.0
+pillow==12.3.0
+pypdfium2==5.11.0
